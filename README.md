@@ -1,0 +1,20 @@
+# 🧠 DocuMind AI
+
+**DocuMind AI** is an advanced RAG (Retrieval-Augmented Generation) application that allows users to chat with multiple PDF documents simultaneously. Built with Python, Streamlit, and Google Gemini.
+
+## 🚀 Features
+- **Multi-Document Analysis:** Upload and cross-reference multiple PDFs.
+- **Smart Citations:** The bot cites the exact document and page number for every fact.
+- **Hybrid Search:** Combines Vector Search (FAISS) with Gemini's General Knowledge.
+- **Privacy First:** Documents are processed locally in memory.
+
+## 🛠️ Tech Stack
+- **Frontend:** Streamlit (Custom Dark Mode UI)
+- **LLM:** Google Gemini 2.0 Flash
+- **Vector DB:** FAISS (Facebook AI Similarity Search)
+- **Framework:** LangChain
+
+## 📦 How to Run
+1. Clone the repo:
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/DocuMind-AI.git](https://github.com/YOUR_USERNAME/DocuMind-AI.git)# Docu-MInd-AI
