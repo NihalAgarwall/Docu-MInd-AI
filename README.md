@@ -31,8 +31,9 @@ Configure your API Key:
 Create a new file named .env in the project folder.
 
 Add your Google API Key inside like this:
-
+```bash
 GOOGLE_API_KEY=your_actual_key_here
+```
 Run the app:
 
 ```bash
