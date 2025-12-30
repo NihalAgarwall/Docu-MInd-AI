@@ -21,10 +21,10 @@
    git clone [https://github.com/YOUR_USERNAME/DocuMind-AI.git](https://github.com/YOUR_USERNAME/DocuMind-AI.git)
 Install dependencies:
 
-Bash
+```bash
 
 pip install -r requirements.txt
-Configure your API Key: <-- THIS IS THE IMPORTANT PART
+Configure your API Key:
 
 Create a new file named .env in the project folder.
 
@@ -33,6 +33,6 @@ Add your Google API Key inside like this:
 GOOGLE_API_KEY=your_actual_key_here
 Run the app:
 
-Bash
+```bash
 
 streamlit run app.py
