@@ -19,11 +19,13 @@
 1. **Clone the repo:**
    ```bash
    git clone [https://github.com/YOUR_USERNAME/DocuMind-AI.git](https://github.com/YOUR_USERNAME/DocuMind-AI.git)
+
 Install dependencies:
 
 ```bash
 
 pip install -r requirements.txt
+```
 Configure your API Key:
 
 Create a new file named .env in the project folder.
