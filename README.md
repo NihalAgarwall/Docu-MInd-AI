@@ -15,6 +15,24 @@
 - **Framework:** LangChain
 
 ## 📦 How to Run
-1. Clone the repo:
+
+1. **Clone the repo:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/DocuMind-AI.git](https://github.com/YOUR_USERNAME/DocuMind-AI.git)# Docu-MInd-AI
+   git clone [https://github.com/YOUR_USERNAME/DocuMind-AI.git](https://github.com/YOUR_USERNAME/DocuMind-AI.git)
+Install dependencies:
+
+Bash
+
+pip install -r requirements.txt
+Configure your API Key: <-- THIS IS THE IMPORTANT PART
+
+Create a new file named .env in the project folder.
+
+Add your Google API Key inside like this:
+
+GOOGLE_API_KEY=your_actual_key_here
+Run the app:
+
+Bash
+
+streamlit run app.py
